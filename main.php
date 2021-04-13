@@ -6,7 +6,6 @@ require_once __DIR__ . '/Car.class.php';
 // 引数 : 車名(車種)、車体番号、カラー
 $car1 = new Car('ランクル', 100, 'black');
 
-
 // 車名(車種)を取得
 echo $car1->getName();
 echo "\n";
